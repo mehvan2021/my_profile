@@ -8,7 +8,6 @@ void main() {
 
 class MyProfile extends StatelessWidget {
   const MyProfile({Key? key}) : super(key: key);
-  final String telephoneNumber = "01817658822";
 
   @override
   Widget build(BuildContext context) {
@@ -267,21 +266,10 @@ class MyProfile extends StatelessWidget {
                     Container(
                         width: 100,
                         height: 55,
-                        child: InkWell(
-                          onTap: () async {
-                            String telephoneUrl = "tel:$telephoneNumber";
-
-                            if (await canLaunch(telephoneUrl)) {
-                              await launch(telephoneUrl);
-                            } else {
-                              throw "Can't phone that number.";
-                            }
-                          },
-                          child: Icon(
-                            color: Color.fromARGB(255, 64, 205, 83),
-                            size: 35,
-                            FontAwesomeIcons.whatsapp,
-                          ),
+                        child: Icon(
+                          color: Color.fromARGB(255, 64, 205, 83),
+                          size: 35,
+                          FontAwesomeIcons.whatsapp,
                         ),
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
