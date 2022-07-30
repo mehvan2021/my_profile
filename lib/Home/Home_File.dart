@@ -80,7 +80,7 @@ class MyProfile extends StatelessWidget {
               Container(
                 width: 240,
                 alignment: Alignment.topCenter,
-                height: 120,
+                height: 100,
                 child: Center(
                   child: Text(
                     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.',
@@ -97,15 +97,13 @@ class MyProfile extends StatelessWidget {
                 height: 25,
               ),
 
-              Container(
-                width: 300,
-                height: 320,
+              Expanded(
                 child: Column(
                   children: [
                     // container 1 Linkedin
                     Container(
                       child: Container(
-                        height: 50,
+                        height: 44,
                         color: Color.fromARGB(255, 238, 240, 251),
                         child: Row(
                           children: [
@@ -148,16 +146,16 @@ class MyProfile extends StatelessWidget {
                         ],
                       ),
                       width: 300,
-                      height: 60,
+                      height: 44,
                     ),
                     // container 1 Linkedin End ------                    // container 1 Linkedin End ------
                     SizedBox(
-                      height: 22,
+                      height: 20,
                     ),
                     // container 2
                     Container(
                       child: Container(
-                        height: 50,
+                        height: 44,
                         color: Color.fromARGB(255, 187, 214, 248),
                         child: Row(
                           children: [
@@ -200,18 +198,18 @@ class MyProfile extends StatelessWidget {
                         ],
                       ),
                       width: 300,
-                      height: 60,
+                      height: 44,
                     ),
                     // container 2 End
 
                     SizedBox(
-                      height: 22,
+                      height: 20,
                     ),
 
                     // container 3
                     Container(
                       child: Container(
-                        height: 50,
+                        height: 44,
                         color: Color.fromARGB(255, 243, 230, 230),
                         child: Row(
                           children: [
@@ -254,16 +252,16 @@ class MyProfile extends StatelessWidget {
                         ],
                       ),
                       width: 300,
-                      height: 60,
+                      height: 44,
                     ),
                     // container 3 End
                     SizedBox(
-                      height: 22,
+                      height: 20,
                     ),
                     // container 4
                     Container(
                       child: Container(
-                        height: 50,
+                        height: 44,
                         color: Color.fromARGB(255, 253, 249, 243),
                         child: Row(
                           children: [
@@ -306,7 +304,7 @@ class MyProfile extends StatelessWidget {
                         ],
                       ),
                       width: 300,
-                      height: 60,
+                      height: 44,
                     ),
                     // container 4 End
                   ],
